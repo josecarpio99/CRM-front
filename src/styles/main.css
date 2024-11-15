@@ -1,0 +1,44 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  font-size: 14px;
+}
+
+.v-popper--theme-tooltip .v-popper__inner {  
+  background-color: theme('colors.theme.500') !important;
+  font-size: .75rem;
+}
+
+.table-header.v-popper--theme-dropdown {  
+  width: 16rem;
+}
+
+.table-header.with-select.v-popper--theme-dropdown {  
+  width: 20rem;
+}
+
+.table-header.v-popper--theme-dropdown .v-popper__inner {  
+  padding: 16px;
+}
+
+.table-header.with-select.v-popper--theme-dropdown .v-popper__inner { 
+
+  height: 250px;
+}
+
+.v-popper--theme-tooltip  .v-popper__arrow-container {
+  color: theme('colors.theme.500') !important;
+  /* background-color: theme('colors.theme.500') !important; */
+}
+
+.v-popper--theme-tooltip  .v-popper__arrow-outer {
+  border-color: theme('colors.theme.500') !important;
+}
+/* 
+.v-popper--theme-dropdown .v-select {
+  width: 250px !important;
+} */
